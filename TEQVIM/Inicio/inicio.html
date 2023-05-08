@@ -1,27 +1,45 @@
+<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inicio.css"/>
-    <title>Teqvim:inicio</title>
+    <title>TEQVIM inicio</title>
+    <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
+
+    <nav>
+
+        <input type="checkbox" id="toggle">
+        <div class="logo">
+            TEQVIM
+        </div>
+        <ul class="list">
+            <li><a href="#">iniciar sesion</a></li>
+            <li><a href="#">registrarse</a></li>
+        </ul>
+        <label for="toggle" class="icon-bars">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            </label>
+    </nav>
     <form action="">
         <h1 class="title">Login</h1>
-        <label>
+        <label for="">
             <i class="fa-solid fa-user"></i>
-            <input placeholder="usuario" type="text" id="user">
+            <input placeholder="correo" type="text" id="username">
         </label>
-        <label>
+        <label for="">
             <i class="fa-solid fa-lock"></i>
             <input placeholder="contraseña" type="password" id="password">
         </label>
-        <a href="" class="link">¿Contraseña olvidada?</a>
+        <a href="#" class="link">¿has olvidado la contraseña?</a>
 
-        <button id="button">Login</button>
+        <button id="button">login</button>
     </form>
-
     <script src="main.js"></script>
 </body>
 </html>
